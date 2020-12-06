@@ -1,0 +1,28 @@
+# configuration of the glossary list plugin
+plugin.tx_a21glossary {
+	view {
+		templateRootPaths {
+			0 = EXT:a21glossary/Resources/Private/Templates/
+			10 =
+		}
+		partialRootPaths {
+			0 = EXT:a21glossary/Resources/Private/Partials/
+			10 =
+		}
+		layoutRootPaths {
+			0 = EXT:a21glossary/Resources/Private/Layouts/
+			10 =
+		}
+		widget.TYPO3\CMS\Fluid\ViewHelpers\Widget\PaginateViewHelper.templateRootPaths.10 = EXT:a21glossary/Resources/Private/Templates/
+	}
+
+	settings {
+		paginate {
+			itemsPerPage = 20
+			insertAbove = 0
+			insertBelow = 1
+			maximumNumberOfLinks = 9
+		}
+	}
+
+}
