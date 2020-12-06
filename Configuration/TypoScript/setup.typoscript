@@ -3,7 +3,7 @@ config.tx_extbase {
 		classes {
 			WapplerSystems\A21glossary\Domain\Model\Glossary {
 				mapping {
-					tableName = tx_a21glossary_main
+					tableName = tx_a21glossary_domain_model_entry
 				}
 			}
 		}
@@ -61,8 +61,8 @@ config.tx_a21glossary {
 
 # configuration of a single glossary list item
 # based on the TCA name
-tx_a21glossary_main = COA
-tx_a21glossary_main {
+tx_a21glossary_domain_model_entry = COA
+tx_a21glossary_domain_model_entry {
 
 	10 = TEXT
 	10 {

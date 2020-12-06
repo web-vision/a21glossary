@@ -5,5 +5,5 @@ if (!defined('TYPO3_MODE')) {
 }
 
 
-\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::allowTableOnStandardPages('tx_a21glossary_main');
-\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addToInsertRecords('tx_a21glossary_main');
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::allowTableOnStandardPages('tx_a21glossary_domain_model_entry');
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addToInsertRecords('tx_a21glossary_domain_model_entry');

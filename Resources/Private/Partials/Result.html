@@ -1,6 +1,6 @@
 <div class="result">
     <dl class="glossary">
-        <f:widget.paginate objects="{glossaryItems}" as="paginatedItems" configuration="{settings.paginate}">
+        <f:widget.paginate objects="{glossaryItems}" as="paginatedItems">
             <f:for each="{paginatedItems}" as="glossaryItem">
                 <dt><a name="glossary-{glossaryItem.uid}"></a>{glossaryItem.short}</dt>
                 <dd>

@@ -52,7 +52,7 @@ class Entry extends AbstractEntity
     /**
      * @return string
      */
-    public function getShortcut(): string
+    public function getShortcut():? string
     {
         return $this->shortcut;
     }
@@ -68,7 +68,7 @@ class Entry extends AbstractEntity
     /**
      * @return string
      */
-    public function getShorttype(): string
+    public function getShorttype():? string
     {
         return $this->shorttype;
     }
@@ -84,7 +84,7 @@ class Entry extends AbstractEntity
     /**
      * @return string
      */
-    public function getDescription(): string
+    public function getDescription():? string
     {
         return $this->description;
     }

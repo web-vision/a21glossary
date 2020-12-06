@@ -13,7 +13,4 @@ CREATE TABLE tx_a21glossary_domain_model_entry
     force_preservecase int(11)             DEFAULT '0' NOT NULL,
     force_regexp       int(11)             DEFAULT '0' NOT NULL,
     force_global       int(11)             DEFAULT '0' NOT NULL,
-
-    KEY parent (pid),
-    KEY language (l18n_parent,sys_language_uid)
 );
